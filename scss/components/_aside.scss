@@ -1,0 +1,50 @@
+.aside {
+    width: 160px;
+  
+    &__list {
+      position: relative;
+      //top: -10px;
+      margin: 25px;
+      width: 160px;
+    }
+  
+    &__ul_list {
+      padding-top: 30px;
+      padding-left: 10px;
+      width: 160px;
+    }
+  
+    img {
+      width: 22px;
+      height: 22px;
+    }
+  
+    &__img {
+      position: relative;
+      //padding: 25px 0;
+      width: 20px;
+      height: 20px;
+      top: 4px;
+      left: -16px;
+      //top: -10px;
+  
+      &:hover {
+        color: black;
+      }
+    }
+
+    &__anchor {
+        //margin-left: 6px;
+       
+        //bottom: 5px;
+        text-transform: uppercase;
+        color: $color-pink;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+    
+        &:hover {
+          color: black;
+        }
+      }
+    }

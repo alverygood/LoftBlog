@@ -1,0 +1,42 @@
+.pagination {
+  //display: block;
+  font-family: "Roboto";
+  width: 340px;
+  margin: 0 auto;
+  //padding: 15px;
+
+  &__parag {
+    margin-left: 89px;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(101, 100, 100);
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  &__li {
+    position: relative;
+    bottom: 21px;
+    left: 218px;
+
+    display: inline-block;
+  }
+
+  &__li a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(34, 31, 31);
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+
+    &:hover {
+      color: white;
+      padding: 5px;
+      background-color: $color-dark-blue;
+    }
+  }
+}
