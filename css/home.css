@@ -13,7 +13,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Montserrat", 'GothamPro', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 h1 {
@@ -25,16 +25,6 @@ h1 {
 
 a {
   cursor: pointer; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-html {
-  font-size: 62.5%; }
-
-.clearfix {
-  clear: both; }
 
 a {
   cursor: pointer; }
@@ -50,6 +40,9 @@ a {
   margin: 0 auto;
   width: 1100px;
   height: 80px; }
+
+.content {
+  min-height: calc(100vh - 70px); }
 
 .header {
   width: 100vw;
@@ -102,8 +95,7 @@ nav a {
 .price {
   margin-top: -168px;
   float: right;
-  width: calc(1100px - 172px);
-  background-color: #615d5d; }
+  width: calc(1100px - 172px); }
   .price__title {
     margin-left: 34px;
     margin-bottom: 30px;
@@ -160,7 +152,8 @@ nav a {
     color: #ed2f83;
     text-decoration: none;
     font-size: 12px;
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: 'GothamPro'; }
     .aside__anchor:hover {
       color: black; }
 
@@ -320,23 +313,24 @@ nav a {
     margin: 0 auto; }
   .foot__soc {
     position: relative;
-    top: -80px;
+    top: -44px;
     float: right;
     color: white; }
   .foot__p {
+    font-size: 16px;
     width: 200px;
     position: relative;
     left: 10px; }
   .foot__li {
     display: inline-block;
-    margin: 0 3px; }
+    margin: 0 6px; }
   .foot__img {
     margin-top: 10px;
-    width: 15px;
-    height: 15px;
+    width: 22px;
+    height: 22px;
     display: inline-block;
     background-color: #d4d4d8;
-    padding: 0.5rem;
+    padding: 5px;
     border-radius: 50%; }
     .foot__img:hover {
       background-color: #ed2f83; }
