@@ -25,7 +25,12 @@
 	clear: both;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   font-family: 'GothamPro';
   font-size: 18px;
   font-weight: normal;

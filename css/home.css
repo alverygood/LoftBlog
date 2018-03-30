@@ -13,7 +13,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'GothamPro', sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 h1 {
@@ -36,14 +36,17 @@ a {
   height: 359px;
   background-color: #27273e; }
 
-.container {
+/*.container {
   margin: 0 auto;
   width: 1100px;
-  height: 80px; }
+  height: 80px;
+  
+  //background-color: $color-dark-blue;
+}
 
 .content {
-  min-height: calc(100vh - 70px); }
-
+  min-height: calc(100vh - 70px);
+}*/
 .header {
   width: 100vw;
   background-color: #27273e; }
@@ -139,13 +142,13 @@ nav a {
   .aside img {
     width: 22px;
     height: 22px; }
-  .aside__img {
+  .aside__img-triangle {
+    background-image: url("https://png.icons8.com/material/20/000000/triangle-stroked.png");
     position: relative;
-    width: 20px;
-    height: 20px;
     top: 4px;
     left: -16px; }
-    .aside__img:hover {
+    .aside__img-triangle:hover {
+      background: url("https://png.icons8.com/material/20/000000/triangle-stroked.png");
       color: black; }
   .aside__anchor {
     text-transform: uppercase;
@@ -286,6 +289,7 @@ nav a {
     line-height: 1.5; }
 
 .foot {
+  margin-top: -87px;
   position: relative;
   top: 61px;
   width: 100vw;

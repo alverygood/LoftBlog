@@ -19,16 +19,18 @@
       height: 22px;
     }
   
-    &__img {
+    &__img-triangle {
+      background-image: url("https://png.icons8.com/material/20/000000/triangle-stroked.png");
       position: relative;
       //padding: 25px 0;
-      width: 20px;
-      height: 20px;
+      //width: 20px;
+     // height: 20px;
       top: 4px;
       left: -16px;
       //top: -10px;
   
       &:hover {
+        background: url("https://png.icons8.com/material/20/000000/triangle-stroked.png");
         color: black;
       }
     }
