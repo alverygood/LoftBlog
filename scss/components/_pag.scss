@@ -1,12 +1,12 @@
 .pagination {
-  //display: block;
+  display: inline-block;
   font-family: "Roboto";
   width: 340px;
-  margin: 0 auto;
+  margin: 91px 0 76px 376px;
   //padding: 15px;
 
   &__parag {
-    margin-left: 89px;
+    margin-left: 95px;
     font-size: 14px;
     font-family: "Roboto";
     color: rgb(101, 100, 100);
@@ -16,7 +16,7 @@
 
   &__li {
     position: relative;
-    bottom: 21px;
+    bottom: 26px;
     left: 218px;
 
     display: inline-block;

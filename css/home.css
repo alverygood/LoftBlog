@@ -218,9 +218,9 @@ nav a {
     line-height: 1.667;
     text-align: center; }
   .features__item-li {
-    margin-top: 1px;
-    margin-left: 61px;
-    width: 110px;
+    margin-top: 5px;
+    margin-left: 51px;
+    width: 150px;
     font-size: 18px;
     color: #ed2f83;
     line-height: 1.667;
@@ -231,12 +231,12 @@ nav a {
 
 .news {
   float: left;
-  overflow: hidden;
-  width: 900px;
-  margin: -66px; }
+  overflow: hidden; }
   .news__title {
-    margin-top: 86px;
-    margin-left: 260px;
+    width: 95%;
+    margin-top: 7%;
+    margin-left: -7%;
+    text-align: center;
     font-size: 49px;
     color: #221f1f;
     font-weight: bold;
@@ -244,8 +244,8 @@ nav a {
   .news .news-section {
     width: 900px;
     height: 219px;
-    padding-left: 259px;
-    padding-top: 131px;
+    padding-left: 194px;
+    padding-top: 132px;
     float: left;
     font-family: "Roboto", sans-serif; }
   .news .news-section__pic {
@@ -287,20 +287,18 @@ nav a {
     line-height: 1.5; }
 
 .foot {
-  margin-top: -87px;
-  position: relative;
-  top: 61px;
+  margin-top: -30px;
   width: 100vw;
   height: 100px;
   background-color: #27273e;
   background-size: cover; }
   .foot__make_in_love {
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 13px;
     color: white;
     line-height: 1.286;
     float: left;
-    margin: 18px;
+    margin: 10px 20px;
     color: white;
     width: 300px; }
   .foot__make_in_love a {
@@ -319,30 +317,32 @@ nav a {
     float: right;
     color: white; }
   .foot__p {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: bold;
     width: 200px;
     position: relative;
     left: 10px; }
   .foot__li {
     display: inline-block;
-    margin: 0 6px; }
+    margin: 0 4px; }
   .foot__img {
     margin-top: 10px;
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     display: inline-block;
     background-color: #d4d4d8;
-    padding: 5px;
+    padding: 3px;
     border-radius: 50%; }
     .foot__img:hover {
       background-color: #ed2f83; }
 
 .pagination {
+  display: inline-block;
   font-family: "Roboto";
   width: 340px;
-  margin: 0 auto; }
+  margin: 91px 0 76px 376px; }
   .pagination__parag {
-    margin-left: 89px;
+    margin-left: 95px;
     font-size: 14px;
     font-family: "Roboto";
     color: #656464;
@@ -350,7 +350,7 @@ nav a {
     text-align: left; }
   .pagination__li {
     position: relative;
-    bottom: 21px;
+    bottom: 26px;
     left: 218px;
     display: inline-block; }
   .pagination__li a {

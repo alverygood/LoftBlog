@@ -1,13 +1,17 @@
 .news {
   float: left;
   overflow: hidden;
-  width: 900px;
+  //width: 900px;
   //height: 50%;
-  margin: -66px;
+  //margin: -66px;
 
   &__title {
-    margin-top: 86px;
-    margin-left: 260px;
+    width: 95%;
+    margin-top: 7%;
+    margin-left: -7%;
+    text-align: center;
+    //margin-top: 86px;
+   // margin-left: 260px;
     font-size: 49px;
     color: rgb(34, 31, 31);
     font-weight: bold;
@@ -17,8 +21,8 @@
   .news-section {
     width: 900px;
     height: 219px;
-    padding-left: 259px;
-    padding-top: 131px;
+    padding-left: 194px;
+    padding-top: 132px;
     float: left;
     font-family: "Roboto", sans-serif;
   }
