@@ -142,13 +142,11 @@ nav a {
   .aside img {
     width: 22px;
     height: 22px; }
-  .aside__img-triangle {
-    background-image: url("https://png.icons8.com/material/20/000000/triangle-stroked.png");
+  .aside__img {
     position: relative;
     top: 4px;
-    left: -16px; }
-    .aside__img-triangle:hover {
-      background: url("https://png.icons8.com/material/20/000000/triangle-stroked.png");
+    left: -6px; }
+    .aside__img:hover {
       color: black; }
   .aside__anchor {
     text-transform: uppercase;
