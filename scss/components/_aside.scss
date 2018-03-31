@@ -1,6 +1,7 @@
 .aside {
   font-family: "Montserrat", sans-serif;
     width: 160px;
+    margin-bottom: 83px;
   
     &__list {
       position: relative;
@@ -10,15 +11,21 @@
     }
   
     &__ul_list {
-      padding-top: 30px;
+      padding-top: 13px;
       padding-left: 10px;
       width: 160px;
     }
-  
+    
     img {
-      width: 22px;
-      height: 22px;
+      color: #ed2f83; 
+      //background-image: url("../../img/change_history.svg");
+      width: 20px;
+     height: 20px;
     }
+     img:hover {
+        color: black;
+      }
+            
   
     &__img {
       
@@ -27,7 +34,7 @@
       //width: 20px;
      // height: 20px;
       top: 4px;
-      left: -6px;
+      left: -16px;
       //top: -10px;
   
       &:hover {

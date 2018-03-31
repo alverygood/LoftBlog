@@ -1,15 +1,14 @@
 .news {
   float: left;
   overflow: hidden;
-  //width: 900px;
-  //height: 50%;
-  //margin: -66px;
+  margin-top: 40px;
 
   &__title {
     font-family: "Montserrat", sans-serif;
     width: 95%;
-    margin-top: 7%;
-    margin-left: -7%;
+    margin-top: 5%;
+    margin-left: -6%;
+    margin-bottom: 10%;
     text-align: center;
     //margin-top: 86px;
    // margin-left: 260px;
@@ -23,7 +22,7 @@
     width: 900px;
     height: 219px;
     padding-left: 194px;
-    padding-top: 132px;
+    //padding-top: 132px;
     float: left;
     font-family: "Roboto", sans-serif;
   }
