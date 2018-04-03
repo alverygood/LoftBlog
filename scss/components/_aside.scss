@@ -14,41 +14,53 @@
       padding-top: 13px;
       padding-left: 10px;
       width: 160px;
+     list-style: none;
     }
     
-    img {
-      color: #ed2f83; 
-      //background-image: url("../../img/change_history.svg");
-      width: 20px;
-     height: 20px;
-    }
-     img:hover {
-        color: black;
+    &__img--1 {
+      float: left;
+      background-image: url("../../img/triangle_pink.png");
+      padding: 10px;
+      width: 22px;
+      height: 22px;
+
+     &:hover {
+      background-image: url("../../img/triangle_black.png");
       }
-            
-  
-    &__img {
-      
-      position: relative;
-      //padding: 25px 0;
-      //width: 20px;
-     // height: 20px;
-      top: 4px;
-      left: -16px;
-      //top: -10px;
-  
-      &:hover {
-       
-        color: black;
+    }
+     
+    &__img--2 {
+      float: left;
+      background-image: url("../../img/star_pink.png");
+      padding: 10px;
+      width: 24px;
+     height: 24px;
+
+     &:hover {
+      background-image: url("../../img/star_black.png");
       }
     }
 
+    &__img--3 {
+      float: left;
+      background-image: url("../../img/wallet_pink.png");
+      padding: 10px;
+      width: 24px;
+     height: 24px;
+
+     &:hover {
+      background-image: url("../../img/wallet_black.png");
+      }
+    }
+    
+
     &__anchor {
         //margin-left: 6px;
-       
+       float: left;
+       padding: 4px;
         //bottom: 5px;
         text-transform: uppercase;
-        color: $color-pink;
+        color: #ed2f83;
         text-decoration: none;
         font-size: 12px;
         font-weight: bold;
