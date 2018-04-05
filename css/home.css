@@ -393,7 +393,8 @@ a {
     line-height: 1.286;
     float: left;
     margin: 10px 20px;
-    color: white; }
+    color: white;
+    width: 300px; }
   .foot__make_in_love a {
     color: white;
     font-weight: bold; }
