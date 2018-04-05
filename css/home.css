@@ -251,15 +251,15 @@ a {
     height: 22px;
     margin-top: -4px; }
     .aside__img2:hover {
-      background-image: url(../../img/star_black.png); }
+      background-image: url(../img/star_black.png); }
   .aside__img3 {
-    background-image: url(../../img/wallet_pink.png);
+    background-image: url(../img/wallet_pink.png);
     float: left;
     width: 22px;
     height: 22px;
     margin-top: -4px; }
     .aside__img3:hover {
-      background-image: url(../../img/wallet_black.png); }
+      background-image: url(../img/wallet_black.png); }
   .aside__anchor {
     margin-left: 10px;
     text-transform: uppercase;
@@ -393,8 +393,7 @@ a {
     line-height: 1.286;
     float: left;
     margin: 10px 20px;
-    color: white;
-    width: 300px; }
+    color: white; }
   .foot__make_in_love a {
     color: white;
     font-weight: bold; }
@@ -578,7 +577,7 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   width: 100%;
-  background: url(/../../img/comments/pattern.png) repeat-x;
+  background: url(../img/comments/pattern.png) repeat-x;
   color: #fff; }
   .discount__item {
     margin: 0 auto;
