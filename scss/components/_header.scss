@@ -1,6 +1,6 @@
 .header {
   font-family: "Montserrat", sans-serif;
-  width: 100%;
+  width: 100vw;
   background-color: $color-dark-blue;
 }
 
@@ -45,6 +45,7 @@
       text-decoration: underline;
     }
     .header-top__dropdown-content {
+      position: absolute;
     display: none;
     color: #221f1f;
     font-weight: normal;

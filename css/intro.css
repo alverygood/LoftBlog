@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {   
+	background: url(../../img/intro/worcadium_bg.png) no-repeat center center fixed;   
+	-webkit-background-size: cover;  
+	-moz-background-size: cover;  
+	-o-background-size: cover;  
+	background-size: cover;
+	font-size: 62.5%;  
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.intro {
+	text-align: center;
+}
+.intro__logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.intro__button a{
+	width: 20.7rem;
+	height: 5.5rem;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid #ed2f83;
+	border-radius: 3px;
+	margin: 4rem 0;
+	padding: 0 4rem;
+	text-decoration: none;
+	color: #ed2f83;
+	font-size: 1.2rem;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 4.5;
+}
+
+
+.intro__button a:hover {
+	color: white;
+	background-color:#ed2f83;
+}

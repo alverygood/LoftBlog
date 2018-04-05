@@ -1,0 +1,133 @@
+.form {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f5f5;
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px 70px;
+  border-radius: 5px;
+  margin-bottom: 90px;
+
+  &__heading {
+    font-size: 49px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  &__name {
+    float: left;
+    padding-bottom: 10px;
+  }
+
+  &__input {
+    width: 270px;
+    padding: 20px 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+
+  &__input:focus {
+    border: 1px solid #ed2f83;
+  }
+
+  &__profile-vk {
+    float: right;
+    padding-bottom: 10px;
+  }
+
+  &__textarea {
+    font-size: 14px;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+    resize: none;
+    border: none;
+
+    &:focus {
+      border-top: 1px solid #ed2f83;
+      border-bottom: 1px solid #ed2f83;
+    }
+
+    &__review-user{
+        float: left;
+    }
+  }
+
+  .form__review-user{
+    float: left;
+}
+
+  .form__radio-group {
+    float: left;
+    width: 260px;
+  }
+
+  .form__radio-group-h6 {
+    font-size: 16px;
+  }
+
+  .form__radio-button {
+    float: left;
+    padding: 10px;
+    //width: 200px;
+  }
+
+  .form__yes {
+    margin: 10px;
+  }
+
+  .form__no {
+    margin: 10px;
+  }
+
+  .form__butt {
+      float: right;
+    border-radius: 5px;
+      color: white;
+      float: right;
+      background-color: #27273e;
+      padding: 15px;
+      margin-top: -10px; 
+  }
+
+  .form__yes {
+      float: left;
+  }
+
+  .form__not {
+      float: left;
+      margin-top: 10px;
+  }
+}
+input[type="text"] {
+    font-size: 16px;
+}
+input[type="submit"] {
+          font-size: 14px;
+          text-transform: uppercase;
+      }
+textarea[name="comment"] {
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label:before {
+    content: "\26AB";
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #ed2f83;
+    font-size: 5px;    
+    margin: -5px 5px 0 0;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0;    
+    transition: font-size ease .3s;
+}
+input[type=radio]:checked + label:before {
+    font-size: 10px;  
+}

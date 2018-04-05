@@ -1,73 +1,70 @@
 .aside {
   font-family: "Montserrat", sans-serif;
+  width: 160px;
+  margin-bottom: 83px;
+
+  &__list {
+    position: relative;
+    //top: -10px;
+    margin: 25px;
     width: 160px;
-    margin-bottom: 83px;
-  
-    &__list {
-      position: relative;
-      //top: -10px;
-      margin: 25px;
-      width: 160px;
-    }
-  
-    &__ul_list {
-      padding-top: 13px;
-      padding-left: 10px;
-      width: 160px;
-     list-style: none;
-    }
-    
-    &__img--1 {
-      float: left;
-      background-image: url("../../img/triangle_pink.png");
-      padding: 10px;
-      width: 22px;
-      height: 22px;
+  }
 
-     &:hover {
-      background-image: url("../../img/triangle_black.png");
-      }
-    }
-     
-    &__img--2 {
-      float: left;
-      background-image: url("../../img/star_pink.png");
-      padding: 10px;
-      width: 24px;
-     height: 24px;
+  &__ul_list {
+    padding-top: 13px;
+    //padding-left: 10px;
+    width: 160px;
+  }
 
-     &:hover {
-      background-image: url("../../img/star_black.png");
-      }
-    }
+  &__img1 {
+    background-image: url(../../img/triangle_pink.png);
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: -4px;
 
-    &__img--3 {
-      float: left;
-      background-image: url("../../img/wallet_pink.png");
-      padding: 10px;
-      width: 24px;
-     height: 24px;
-
-     &:hover {
-      background-image: url("../../img/wallet_black.png");
-      }
+    &:hover {
+      background-image: url(../../img/triangle_black.png);
     }
-    
+  }
 
-    &__anchor {
-        //margin-left: 6px;
-       float: left;
-       padding: 4px;
-        //bottom: 5px;
-        text-transform: uppercase;
-        color: #ed2f83;
-        text-decoration: none;
-        font-size: 12px;
-        font-weight: bold;
-        font-family: "Montserrat", sans-serif;
-    
-        &:hover {
-          color: black;
-        }
-      }
+  &__img2 {
+    background-image: url(../../img/star_pink.png);
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: -4px;
+
+    &:hover {
+      background-image: url(../../img/star_black.png);
     }
+  }
+
+  &__img3 {
+    background-image: url(../../img/wallet_pink.png);
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: -4px;
+
+    &:hover {
+      background-image: url(../../img/wallet_black.png);
+    }
+  }
+
+  &__anchor {
+    margin-left: 10px;
+
+    //bottom: 5px;
+    text-transform: uppercase;
+    color: $color-pink;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
