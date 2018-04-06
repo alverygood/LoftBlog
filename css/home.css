@@ -434,19 +434,17 @@ a {
 .pagination {
   display: inline-block;
   font-family: "Roboto";
-  width: 340px;
-  margin: 50px 0 76px 376px; }
+  margin: 50px 0 76px 40%; }
   .pagination__parag {
-    margin-left: 95px;
+    display: inline-block;
     font-size: 14px;
     font-family: "Roboto";
     color: #656464;
     line-height: 1.5;
     text-align: left; }
   .pagination__li {
-    position: relative;
-    bottom: 20px;
-    left: 218px;
+    display: inline-block; }
+  .pagination__ul {
     display: inline-block; }
   .pagination__li a {
     text-decoration: none;
