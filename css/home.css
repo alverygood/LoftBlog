@@ -242,8 +242,7 @@ a {
     width: 22px;
     height: 22px;
     margin-top: -4px;
-    margin-left: -9px;
-    padding-right: 23px; }
+    padding-right: 20px; }
     .aside__img1:hover {
       background-image: url(../img/triangle_black.png); }
   .aside__img2 {
@@ -648,6 +647,7 @@ span a {
   .form .form__no {
     margin: 10px; }
   .form .form__butt {
+    font-weight: bold;
     float: right;
     border-radius: 5px;
     color: white;
