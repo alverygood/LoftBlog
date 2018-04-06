@@ -203,19 +203,17 @@
                 </div>
 
                 <div class="form__group">
-                    <h6 class="form__radio-group-h6">Отображать фото в отзыве?</h6>
-                    <div class="form__radio-button">
-                        <div class="form__yes">
-                            <input type="radio" id="radio" name="radio" />
-                            <label for="radio">Да</label>
-                        </div>
-                        <div class="form__not">
-                            <input type="radio" id="radio1" name="radio" />
-                            <label for="radio1">Нет</label>
-                        </div>
+                    <legend>Отображать фото в отзыве?</legend>
+                    <div class="form__group-radio">
+                        <input type="radio" id="form__yes" name="decision" value="yes" checked>
+                        <label for="form__yes">Да</label>
 
+                        <input type="radio" id="form__no" name="decision" value="no">
+                        <label for="form__no">Нет</label>
                     </div>
-                    <input class="form__butt" type="submit">
+                    <div>
+                        <button type="submit">Отправить</button>
+                    </div>
                 </div>
             </form>
         </section>
