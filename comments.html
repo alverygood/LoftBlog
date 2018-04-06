@@ -26,7 +26,7 @@
                 </div>
                 <div class="header-top__work">
                     <div class="header-top__phone">
-                        <a href="tel: +78000039210">8 (800) 00-392-10</a>
+                        <a href="tel:+78000039210">8 (800) 00-392-10</a>
                     </div>
                     <div class="header-top__dropdown">
                         <p>График работы</p>
@@ -137,7 +137,7 @@
                 </div>
             </section>
         </div>
-        <section class="pagination clearfix">
+        <div class="pagination clearfix">
             <span class="pagination__parag">Страница 1 из 7</span>
             <ul class="pagination__ul">
                 <li class="pagination__li">
@@ -169,52 +169,54 @@
                 </li>
 
             </ul>
-        </section>
-        <section class="discount">
+        </div>
+        <div class="discount">
             <div class="discount__item">
                 <p>Для наших новых клиентов мы предлагаем
                     <span>
                         <a href="#">скидку 50%</a>
                     </span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p>
             </div>
-        </section>
+        </div>
         <section class="form">
             <div class="form__heading">
                 <h1>Оставить отзыв</h1>
             </div>
-            <form action="" class="form__review" id="review-usr">
+            <form action="#" class="form__review" id="review-usr">
                 <div class="form__group">
                     <div class="form__name" id="name">
                         <label for="name" class="form__label clearfix">Ваше имя</label>
                         <input type="text" class="form__input" placeholder="Ваше имя" name="name">
                     </div>
-                    <div class="form__group">
-                        <div class="form__profile-vk" id="profile-vk">
-                            <label for="profile-vk" class="profile-vk clearfix">Ссылка на профиль VK</label>
-                            <input name="vk" type="text" class="form__input" placeholder="vk.com/example">
+                </div>
+                <div class="form__group">
+                    <div class="form__profile-vk" id="profile-vk">
+                        <label for="profile-vk" class="profile-vk clearfix">Ссылка на профиль VK</label>
+                        <input name="vk" type="text" class="form__input" placeholder="vk.com/example">
+                    </div>
+                </div>
+                <div class="form__group">
+                    <div class="form__some-review" id="some-review">
+                        <label for="some-review" class="form__review-user clearfix">Текст отзыва</label>
+                        <textarea class="form__textarea" rows="4" cols="50" name="comment" form="review-usr">Мне понравилось</textarea>
+                    </div>
+                </div>
+
+                <div class="form__group">
+                    <h6 class="form__radio-group-h6">Отображать фото в отзыве?</h6>
+                    <div class="form__radio-button">
+                        <div class="form__yes">
+                            <input type="radio" id="radio" name="radio" />
+                            <label for="radio">Да</label>
                         </div>
-                        <div class="form__group">
-                            <div class="form__some-review" id="some-review">
-                                <label for="some-review" class="form__review-user clearfix">Текст отзыва</label>
-                                <textarea class="form__textarea" rows="4" cols="50" name="comment" form="review-usr">Мне понравилось</textarea>
-                            </div>
+                        <div class="form__not">
+                            <input type="radio" id="radio1" name="radio" />
+                            <label for="radio1">Нет</label>
                         </div>
 
-                        <div class="form__group">
-                            <h6 class="form__radio-group-h6">Отображать фото в отзыве?</h6>
-                            <div class="form__radio-button">
-                                <div class="form__yes">
-                                    <input type="radio" id="radio" name="radio" />
-                                    <label for="radio">Да</label>
-                                </div>
-                                <div class="form__not">
-                                    <input type="radio" id="radio1" name="radio" />
-                                    <label for="radio1">Нет</label>
-                                </div>
-                                
-                            </div>
-                            <input class="form__butt" type="submit">
-                        </div>
+                    </div>
+                    <input class="form__butt" type="submit">
+                </div>
             </form>
         </section>
         <footer class="foot clearfix">
@@ -257,14 +259,12 @@
                         <li class="foot__li">
                             <a>
                                 <img class="foot__img" src="img/email.svg" alt="email">
+                            </a>
                         </li>
-                        </a>
                     </ul>
 
                 </div>
             </div>
-            </div>
-
         </footer>
 </body>
 
