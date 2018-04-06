@@ -91,7 +91,7 @@ a {
 }*/
 .header {
   font-family: "Montserrat", sans-serif;
-  width: 100vw;
+  min-width: 100%;
   background-color: #27273e; }
 
 .header-top {
@@ -581,7 +581,7 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 1.667;
-  width: 90%;
+  width: 100%;
   text-align: center;
   background: url(../img/comments/pattern.png) repeat-x;
   color: #fff; }
