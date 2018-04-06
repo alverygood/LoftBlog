@@ -1,12 +1,12 @@
 .aside {
   font-family: "Montserrat", sans-serif;
   width: 160px;
-  margin-bottom: 83px;
+  margin-bottom: 86px;
 
   &__list {
     position: relative;
     //top: -10px;
-    margin: 25px;
+    margin: 27px;
     width: 160px;
   }
 
@@ -22,6 +22,8 @@
     width: 22px;
     height: 22px;
     margin-top: -4px;
+    margin-left: -9px;
+    padding-right: 23px;
 
     &:hover {
       background-image: url(../img/triangle_black.png);

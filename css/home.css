@@ -228,10 +228,10 @@ a {
 .aside {
   font-family: "Montserrat", sans-serif;
   width: 160px;
-  margin-bottom: 83px; }
+  margin-bottom: 86px; }
   .aside__list {
     position: relative;
-    margin: 25px;
+    margin: 27px;
     width: 160px; }
   .aside__ul_list {
     padding-top: 13px;
@@ -241,7 +241,9 @@ a {
     float: left;
     width: 22px;
     height: 22px;
-    margin-top: -4px; }
+    margin-top: -4px;
+    margin-left: -9px;
+    padding-right: 23px; }
     .aside__img1:hover {
       background-image: url(../img/triangle_black.png); }
   .aside__img2 {
@@ -524,14 +526,15 @@ a {
 
 .comments {
   font-family: "Montserrat", sans-serif;
-  margin-top: -150px;
+  margin-top: -138px;
+  margin-right: -44px;
   width: 950px;
   float: right; }
 
 .comments__h1 {
   font-weight: bold;
   font-size: 49px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   margin-top: -20px; }
 
 .comments__item {
