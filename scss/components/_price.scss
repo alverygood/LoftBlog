@@ -28,15 +28,16 @@
     }
 
    &__span {
+     width: 90%;
      position: absolute;
      text-transform: uppercase;
      top: 46px;
-     left: 154px;
+     left: 158px;
      transform: translate(-51%, -53%);
       font-size: 24px;
       color: rgb(93, 209, 248);
       font-weight: bold;
-      line-height: 0.875;
+      line-height: 1.375;
       text-align: center;
       z-index: 5;
 
@@ -45,8 +46,11 @@
         transition-property: opacity;
         transition-duration: 3s;
       }
-     
   }
+
+  &__vip {
+       color: #ed2f83;
+     }
 
     &__picter_one {
       position: absolute;

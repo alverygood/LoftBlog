@@ -170,21 +170,24 @@ a {
     width: calc((100% - 5px) / 3);
     position: relative; }
   .price__span {
+    width: 90%;
     position: absolute;
     text-transform: uppercase;
     top: 46px;
-    left: 154px;
+    left: 158px;
     transform: translate(-51%, -53%);
     font-size: 24px;
     color: #5dd1f8;
     font-weight: bold;
-    line-height: 0.875;
+    line-height: 1.375;
     text-align: center;
     z-index: 5; }
     .price__span:hover {
       opacity: 0;
       transition-property: opacity;
       transition-duration: 3s; }
+  .price__vip {
+    color: #ed2f83; }
   .price__picter_one {
     position: absolute;
     border-radius: 3px;
@@ -552,7 +555,7 @@ a {
     z-index: 1;
     border-radius: 50%; }
   .comments__item .comments__img1 {
-    background: url(../../img/logo-fig.png) no-repeat center center;
+    background: url(../img/logo-fig.png) no-repeat center center;
     height: 160px;
     width: 160px;
     background-color: #f5f5f5;
