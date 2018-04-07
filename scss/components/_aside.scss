@@ -17,39 +17,38 @@
   }
 
   &__img1 {
-    background-image: url(../img/triangle_pink.png);
+    background-image: url(../img/triangle__pink.png);
     float: left;
-    width: 22px;
-    height: 22px;
-    margin-top: -4px;
-    padding-right: 20px;
+    width: 16px;
+    height: 16px;
+    padding-right: 16px;
 
     &:hover {
-      background-image: url(../img/triangle_black.png);
+      background-image: url(../img/triangle__black.png);
     }
   }
 
   &__img2 {
-    background-image: url(../img/star_pink.png);
+    background-image: url(../img/star__pink.png);
     float: left;
-    width: 22px;
-    height: 22px;
-    margin-top: -4px;
+    width: 16px;
+    height: 16px;
+    padding-right: 16px;
 
     &:hover {
-      background-image: url(../img/star_black.png);
+      background-image: url(../img/star__black.png);
     }
   }
 
   &__img3 {
-    background-image: url(../img/wallet_pink.png);
+    background-image: url(../img/wallet__pink.png);
     float: left;
-    width: 22px;
-    height: 22px;
-    margin-top: -4px;
+    width: 16px;
+    height: 16px;
+    padding-right: 16px;
 
     &:hover {
-      background-image: url(../img/wallet_black.png);
+      background-image: url(../img/wallet__black.png);
     }
   }
 
@@ -67,5 +66,10 @@
     &:hover {
       color: black;
     }
+    
   }
+}
+
+.visit:visited {
+  color: black;
 }

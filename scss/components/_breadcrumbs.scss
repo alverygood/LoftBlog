@@ -19,7 +19,7 @@
        text-decoration: none;
    }
 
-   .breadcrumbs1 a {
+   .breadcrumbs__home a {
   font-family: "Montserrat", sans-serif;
   position: relative;
   display: inline-block;
@@ -34,6 +34,7 @@
   line-height: 1.286;  
   
 }
-.breadcrumbs__price1 a {
+.breadcrumbs__price a {
        color: black;
+       cursor: none;
    }
