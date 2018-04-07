@@ -31,19 +31,18 @@ body {
 }
 
 .intro__button a{
-	width: 20.7rem;
-	height: 5.5rem;
+	width: 207px;
+	height: 55px;
 	position: absolute;
 	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border: 2px solid #ed2f83;
 	border-radius: 3px;
-	margin: 4rem 0;
 	padding: 0 4rem;
 	text-decoration: none;
 	color: #ed2f83;
-	font-size: 1.2rem;
+	font-size: 12px;
 	text-align: center;
 	font-weight: bold;
 	text-transform: uppercase;
