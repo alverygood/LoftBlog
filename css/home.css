@@ -579,11 +579,7 @@ a {
   .comments__item .comments__img {
     padding-right: 20px;
     float: left;
-    border-radius: 50%;
-    transition: filter 2s ease;
-    filter: blur(1px); }
-    .comments__item .comments__img:hover {
-      filter: none; }
+    border-radius: 50%; }
   .comments__item .comments__img img {
     z-index: 1;
     border-radius: 50%; }

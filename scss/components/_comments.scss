@@ -27,12 +27,7 @@
         padding-right: 20px;
         float: left;
         border-radius: 50%;
-        transition: filter 2s ease;
-        filter: blur(1px);
 
-        &:hover {
-            filter: none;
-        }
     }
 
 .comments__img img{
