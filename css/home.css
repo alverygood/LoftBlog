@@ -141,6 +141,7 @@ a {
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(236, 30, 121, 0.702);
       padding: 12px 16px;
+      transition: 2s ease;
       z-index: 1; }
     .header-top__work .header-top__dropdown-content span {
       display: block;
@@ -151,7 +152,6 @@ a {
 
 .price {
   font-family: "Montserrat", sans-serif;
-  margin-top: 41px;
   float: left;
   width: 100%;
   margin-top: -168px;
@@ -167,7 +167,7 @@ a {
   .price__item {
     text-align: center;
     padding-bottom: 63px;
-    margin-top: 13px;
+    margin-top: 40px;
     margin-left: -2px;
     float: left;
     width: calc((100% - 5px) / 3);
@@ -196,10 +196,19 @@ a {
     margin-top: -29px;
     margin-left: 31px;
     background: #38394d;
-    background-blend-mode: overlay;
-    z-index: 5; }
+    transition: filter 2s ease;
+    filter: blur(1px);
+    opacity: 0.6; }
     .price__picters:hover {
+      filter: none;
       opacity: 1; }
+
+.demo--luminosity {
+  background-color: steelblue;
+  background-blend-mode: luminosity; }
+
+.demo--trans:hover {
+  background-blend-mode: normal; }
 
 .price__item-h3 {
   margin-top: 23px;
@@ -219,12 +228,13 @@ a {
   text-align: center; }
 
 .change_color {
+  margin-top: -153px;
+  margin-left: 30px;
+  border-radius: 5px;
   height: 153px;
   width: 250px;
-  background: rgba(55, 56, 76, 0.4);
-  opacity: 0.4;
-  filter: alpha(opacity=50);
-  filter: grayscale(80%); }
+  background: #37384c;
+  opacity: 1; }
   .change_color:hover {
     opacity: 0; }
 
@@ -289,7 +299,8 @@ a {
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif;
+    transition: color 2s ease; }
     .aside__anchor:hover {
       color: black; }
   .aside .visit:visited {
@@ -568,7 +579,11 @@ a {
   .comments__item .comments__img {
     padding-right: 20px;
     float: left;
-    border-radius: 50%; }
+    border-radius: 50%;
+    transition: filter 2s ease;
+    filter: blur(1px); }
+    .comments__item .comments__img:hover {
+      filter: none; }
   .comments__item .comments__img img {
     z-index: 1;
     border-radius: 50%; }

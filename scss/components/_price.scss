@@ -1,6 +1,5 @@
 .price {
   font-family: "Montserrat", sans-serif;
-  margin-top: 41px;
   float: left;
   width: 100%;
   margin-top: -168px;
@@ -20,7 +19,7 @@
       &__item {
         text-align: center;
         padding-bottom: 63px;
-        margin-top: 13px;
+        margin-top: 40px;
         margin-left: -2px; 
         float: left;
         width: calc((100% - 5px) / 3);
@@ -57,13 +56,24 @@
       margin-top: -29px;
       margin-left: 31px;
       background: #38394d;
-      background-blend-mode: overlay;
-      z-index: 5;
+      transition: filter 2s ease;
+      filter: blur(1px);
+      opacity: 0.6;
       &:hover {
+        filter: none;
         opacity: 1;
       }
   }
 }
+
+.demo--luminosity {
+  background-color: steelblue;
+  background-blend-mode: luminosity;
+  }
+
+.demo--trans:hover {
+  background-blend-mode: normal;
+  }
 
 .price__item-h3 {
   margin-top: 23px;
@@ -86,12 +96,15 @@
 }
 
 .change_color {
+  margin-top: -153px;
+  margin-left: 30px;
+  border-radius: 5px;
   height: 153px;
   width: 250px;
-  background: rgba(55, 56, 76, 0.4);
-  opacity: 0.4;
-  filter: alpha(opacity=50);
-  filter: grayscale(80%);
+  background: rgb(55, 56, 76);
+  opacity: 1;
+ 
+  
 
   &:hover {
     opacity: 0;
