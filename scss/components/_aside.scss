@@ -16,40 +16,64 @@
     width: 160px;
   }
 
+  
+
   &__img1 {
-    background-image: url(../img/triangle__pink.png);
     float: left;
     width: 16px;
     height: 16px;
     padding-right: 16px;
-
-    &:hover {
-      background-image: url(../img/triangle__black.png);
-    }
   }
 
+.icon-triangle {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  font-weight: bold;
+}
+
+svg {
+  color: #ed2f83;
+}
   &__img2 {
-    background-image: url(../img/star__pink.png);
     float: left;
     width: 16px;
     height: 16px;
     padding-right: 16px;
 
-    &:hover {
-      background-image: url(../img/star__black.png);
-    }
+  }
+
+  .icon-star {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    font-weight: bold;
   }
 
   &__img3 {
-    background-image: url(../img/wallet__pink.png);
     float: left;
     width: 16px;
     height: 16px;
     padding-right: 16px;
+  }
 
-    &:hover {
-      background-image: url(../img/wallet__black.png);
-    }
+  .icon-wallet {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    font-weight: bold;
+  }
+  .icon-walletwallet {
+    width: 1.1875em;
   }
 
   &__anchor {
@@ -66,10 +90,17 @@
     &:hover {
       color: black;
     }
-    
   }
-}
 
 .visit:visited {
   color: black;
+}
+
+svg:hover {
+ color: #000;
+}
+
+.aside__list:hover {
+  color: #000;
+}
 }

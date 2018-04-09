@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'triangle';
+  src:  url('fonts/triangle.eot?xf2yp4');
+  src:  url('fonts/triangle.eot?xf2yp4#iefix') format('embedded-opentype'),
+    url('fonts/triangle.ttf?xf2yp4') format('truetype'),
+    url('fonts/triangle.woff?xf2yp4') format('woff'),
+    url('fonts/triangle.svg?xf2yp4#triangle') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.triangle {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'triangle' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-triangletriangle:before {
+  content: "\e900";
+}
+
+@font-face {
+  font-family: 'star';
+  src:  url('fonts/star.eot?y1rdh4');
+  src:  url('fonts/star.eot?y1rdh4#iefix') format('embedded-opentype'),
+    url('fonts/star.ttf?y1rdh4') format('truetype'),
+    url('fonts/star.woff?y1rdh4') format('woff'),
+    url('fonts/star.svg?y1rdh4#star') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.star {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'star' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-starstar-empty:before {
+  content: "\e9d7";
+}
+
+@font-face {
+  font-family: 'wallet';
+  src:  url('fonts/wallet.eot?6zvgwl');
+  src:  url('fonts/wallet.eot?6zvgwl#iefix') format('embedded-opentype'),
+    url('fonts/wallet.ttf?6zvgwl') format('truetype'),
+    url('fonts/wallet.woff?6zvgwl') format('woff'),
+    url('fonts/wallet.svg?6zvgwl#wallet') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wallet {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'wallet' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-walletwallet:before {
+  content: "\e900";
+}
+

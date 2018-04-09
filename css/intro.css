@@ -22,24 +22,30 @@ body {
 
 .intro {
 	text-align: center;
-}
-.intro__logo {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.intro__button a{
-	width: 207px;
-	height: 55px;
 	position: absolute;
 	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+.intro__logo {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.intro__button {
+	width: 207px;
+	height: 55px;
 	border: 2px solid #ed2f83;
 	border-radius: 3px;
 	padding: 0 4rem;
+}
+
+.intro__button:hover {
+	background: #ed2f83;
+}
+
+.intro__button a{
+	position: relative;
 	text-decoration: none;
 	color: #ed2f83;
 	font-size: 12px;
@@ -52,5 +58,4 @@ body {
 
 .intro__button a:hover {
 	color: white;
-	background-color:#ed2f83;
 }
