@@ -242,8 +242,8 @@ a {
   .aside__url:hover {
     color: black; }
 
-.visit:visited {
-  background: black; }
+.visit {
+  color: black; }
 
 .aside-icon {
   position: relative;
