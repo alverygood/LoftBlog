@@ -250,6 +250,10 @@ a {
   top: 7px;
   margin-right: 10px; }
 
+.aside__name {
+  margin-left: 12px;
+  margin-top: -20px; }
+
 .aside__icon-triangle {
   background: url(../img/triangle__pink.png) no-repeat;
   width: 18px;
@@ -271,13 +275,26 @@ a {
 
 .aside__icon-wallet {
   background: url(../img/wallet__pink.png) no-repeat;
-  padding: 3px;
-  width: 23px;
-  height: 22px;
+  position: relative;
+  top: 9px;
+  width: 18px;
+  height: 21px;
   display: inline-block; }
 
 .aside__icon-wallet:hover {
   background: url(../img/wallet__black.png) no-repeat; }
+
+.icon-triangle:before {
+  font-size: 18px;
+  content: "\e900"; }
+
+.icon-star-empty:before {
+  font-size: 18px;
+  content: "\e9d7"; }
+
+.icon-wallet {
+  font-size: 18px;
+  background: url(../img/wallet__pink.png); }
 
 .features {
   font-family: "Montserrat", sans-serif;
