@@ -80,15 +80,18 @@
 .icon-triangle:before {
   font-size: 18px;
   content: "\e900";
+  font-weight: bold;
 }
 
 .icon-star-empty:before {
   font-size: 18px;
   content: "\e9d7";
+  font-weight: bold;
 }
 
-.icon-wallet {
+.icon-wallet:before {
+  content: "\e913";
   font-size: 18px;
-  background: url(../img/wallet__pink.png);
-  
+  font-weight: bold;
+
 }
