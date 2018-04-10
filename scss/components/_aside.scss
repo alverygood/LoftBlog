@@ -1,7 +1,8 @@
 .aside {
+  margin-top: 40px;
   font-family: "Montserrat", sans-serif;
   width: 160px;
-  margin-bottom: 162px;
+  
 
 }
 
@@ -20,6 +21,7 @@
   margin-top: 5px;
   color: #ed2f83;
   text-decoration: none;
+  transition: color 2s ease;
 
   &:hover {
     color: black;
