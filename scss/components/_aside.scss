@@ -9,8 +9,12 @@
   list-style-type: none;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 20px;
-
+  font-size: 12px;
+  line-height: 4.5;
+  
+  &:hover {
+    color: black;
+  }
 }
 .aside__url {
   margin-top: 5px;
@@ -26,20 +30,26 @@
   background: black;
 }
 
+.aside-icon {
+  position: relative;
+  top: 7px;
+  margin-right:10px;
+}
+
 .aside__icon-triangle {
-  background: url(../img/triangle_pink.png) no-repeat;
-  width: 23px;
-  height: 22px;
+  background: url(../img/triangle__pink.png) no-repeat;
+  width: 18px;
+  height: 18px;
   display: inline-block;
   
 }
 
 .aside__icon-triangle:hover {
-  background: url(../img/triangle_black.png) no-repeat;
+  background: url(../img/triangle__black.png) no-repeat;
 }
 
 .aside__icon-star-empty {
-  background: url(../img/star_pink.png) no-repeat;
+  background: url(../img/star__pink.png) no-repeat;
  padding: 3px;
   width: 23px;
   height: 22px;
@@ -47,11 +57,11 @@
 }
 
 .aside__icon-star-empty:hover {
-  background: url(../img/star_black.png) no-repeat;
+  background: url(../img/star__black.png) no-repeat;
 }
 
 .aside__icon-wallet {
-  background: url(../img/wallet_pink.png) no-repeat;
+  background: url(../img/wallet__pink.png) no-repeat;
  padding: 3px;
   width: 23px;
   height: 22px;
@@ -59,5 +69,5 @@
 }
 
 .aside__icon-wallet:hover {
-  background: url(../img/wallet_black.png) no-repeat;
+  background: url(../img/wallet__black.png) no-repeat;
 }
