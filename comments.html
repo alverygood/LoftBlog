@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div>
+    <div class="wrapper">
         <header class="header">
             <div class="header-top container">
                 <div class="header-top__logo">
@@ -43,45 +43,24 @@
 
         <div class="container">
                 <aside class="aside">
-                        <ul class="aside__ul_list">
-                          <li class="aside__list turn">
-                            <div class="aside__img1">
-                              <svg class="icon-triangle icon-triangletriangle">
-                                <symbol id="icon-triangletriangle" viewBox="0 0 16 16">
-                                  <title>triangle</title>
-                                  <path d="M15.333 11.667l-5.6-9.467c-0.267-0.467-0.733-0.8-1.267-0.933s-1.067-0.067-1.533 0.2c-0.267 0.133-0.533 0.4-0.667 0.667 0 0 0 0 0 0l-5.6 9.533c-0.533 0.933-0.2 2.2 0.733 2.733 0.267 0.2 0.6 0.267 0.933 0.267h11.333c0.533 0 1.067-0.2 1.4-0.6 0.4-0.4 0.6-0.867 0.6-1.4-0.067-0.333-0.133-0.733-0.333-1zM14.133 13.133c-0.133 0.133-0.333 0.2-0.467 0.2h-11.333c-0.133 0-0.2 0-0.333-0.067-0.333-0.2-0.4-0.6-0.267-0.933l5.667-9.4c0.067-0.067 0.133-0.2 0.2-0.2 0.333-0.2 0.733-0.067 0.933 0.2l5.667 9.4c0.067 0.067 0.067 0.2 0.067 0.333 0.067 0.2-0.067 0.333-0.133 0.467z"></path>
-                                </symbol>
-                                <use xlink:href="#icon-triangletriangle"></use>
-                              </svg>
-                            </div>
-                            <a class="aside__anchor" href="home.html">Главная</a>
+                        <ul class="aside__list-ul">
+                          <li class="aside__list ">
+                            <a class="aside__url" href="home.html">
+                              <span class="aside__icon-triangle"></span>
+                              Главная
+                            </a>
                           </li>
-                
-                          <li class="aside__list turn">
-                            <div class="aside__img2">
-                              <svg class="icon-star icon-starstar-empty">
-                                <symbol id="icon-starstar-empty" viewBox="0 0 16 16">
-                                  <title>star-empty</title>
-                                  <path d="M16 6.204l-5.528-0.803-2.472-5.009-2.472 5.009-5.528 0.803 4 3.899-0.944 5.505 4.944-2.599 4.944 2.599-0.944-5.505 4-3.899zM8 11.773l-3.492 1.836 0.667-3.888-2.825-2.753 3.904-0.567 1.746-3.537 1.746 3.537 3.904 0.567-2.825 2.753 0.667 3.888-3.492-1.836z"></path>
-                                </symbol>
-                                <use xlink:href="#icon-starstar-empty"></use>
-                              </svg>
-                
-                            </div>
-                            <a class="aside__anchor visit" href="comments.html">Отзывы</a>
+                          <li class="aside__list">
+                            <a class="aside__url" href="comments.html">
+                              <span class="aside__icon-star-empty"></span>
+                              Отзывы
+                            </a>
                           </li>
-                
-                          <li class="aside__list turn">
-                            <div class="aside__img3">
-                                <svg class="icon-wallet icon-walletwallet">
-                                    <symbol id="icon-walletwallet" viewBox="0 0 19 16">
-                                        <title>wallet</title>
-                                        <path d="M16.255 3.75c0.138 0 0.25-0.112 0.25-0.25v-0.833c0-0.451-0.367-0.819-0.819-0.819h-1.344l-0.306-0.904c-0.043-0.128-0.18-0.199-0.309-0.159l-7.277 2.212c-0.132 0.041-0.207 0.18-0.167 0.312 0.033 0.108 0.132 0.177 0.239 0.177 0.024 0 0.048-0.003 0.073-0.010l7.045-2.142 0.671 1.982c0.044 0.131 0.188 0.202 0.317 0.156 0.131-0.044 0.201-0.187 0.156-0.317l-0.274-0.808h1.175c0.176 0 0.319 0.143 0.319 0.319v0.833c-0 0.138 0.111 0.25 0.25 0.25zM18.25 7.5c-0.138 0-0.25 0.112-0.25 0.25s0.112 0.25 0.25 0.25c0.175 0 0.25 0.075 0.25 0.25v3c0 0.175-0.075 0.25-0.25 0.25h-4c-0.175 0-0.25-0.075-0.25-0.25v-2.5c0-0.175 0.075-0.25 0.25-0.25h3c0.138 0 0.25-0.112 0.25-0.25v-3c0-0.455-0.294-0.75-0.75-0.75h-15.25c-0.617 0-1-0.383-1-1s0.383-1 1-1h2.538l-1.513 0.499c-0.131 0.043-0.203 0.184-0.159 0.316 0.034 0.105 0.132 0.171 0.237 0.171 0.026 0 0.052-0.004 0.079-0.013l9.059-2.986c0.131-0.043 0.203-0.184 0.159-0.316s-0.184-0.203-0.316-0.159l-6.050 1.995c-0.011-0.002-0.022-0.007-0.034-0.007h-4c-0.897 0-1.5 0.603-1.5 1.5v11c0 0.897 0.603 1.5 1.5 1.5h15.25c0.456 0 0.75-0.294 0.75-0.75v-2.5c0-0.138-0.112-0.25-0.25-0.25s-0.25 0.112-0.25 0.25v2.5c0 0.175-0.075 0.25-0.25 0.25h-15.25c-0.617 0-1-0.383-1-1v-9.844c0.256 0.216 0.596 0.344 1 0.344h15.25c0.175 0 0.25 0.074 0.25 0.25v2.75h-2.75c-0.456 0-0.75 0.294-0.75 0.75v2.5c0 0.456 0.294 0.75 0.75 0.75h4c0.456 0 0.75-0.294 0.75-0.75v-3c0-0.455-0.294-0.75-0.75-0.75zM15.5 10c0 0.276 0.224 0.5 0.5 0.5s0.5-0.224 0.5-0.5c0-0.276-0.224-0.5-0.5-0.5s-0.5 0.224-0.5 0.5z"></path>
-                                        </symbol>
-                                  <use xlink:href="#icon-walletwallet"></use>
-                                </svg>
-                            </div>
-                            <a class="aside__anchor" href="price.html">Тарифы</a>
+                          <li class="aside__list">
+                            <a class="aside__url" href="price.html">
+                              <span class="aside__icon-wallet"></span>
+                              Тарифы
+                            </a>
                           </li>
                         </ul>
                       </aside>
@@ -91,7 +70,7 @@
                         <a href="home.html">Главная /</a>
                     </li>
                     <li class="breadcrumbs__price">
-                        <a class="this_page" href="price.html">Отзывы</a>
+                        <a class="this_page" href="#">Отзывы</a>
                     </li>
                 </ul>
             </nav>
@@ -241,6 +220,7 @@
                 </div>
             </form>
         </section>
+    </div>
         <footer class="foot clearfix">
             <div class="container">
                 <div class="foot__make_in_love ">

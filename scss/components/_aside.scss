@@ -1,107 +1,63 @@
 .aside {
   font-family: "Montserrat", sans-serif;
   width: 160px;
-  margin-bottom: 86px;
+  margin-bottom: 162px;
 
-  &__list {
-    position: relative;
-    //top: -10px;
-    margin: 27px;
-    width: 160px;
-  }
+}
 
-  &__ul_list {
-    padding-top: 13px;
-    //padding-left: 10px;
-    width: 160px;
-  }
-
-  
-
-  &__img1 {
-    float: left;
-    width: 16px;
-    height: 16px;
-    padding-right: 16px;
-  }
-
-.icon-triangle {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+.aside__list {
+  list-style-type: none;
   font-weight: bold;
-}
+  text-transform: uppercase;
+  margin: 20px;
 
-svg {
+}
+.aside__url {
+  margin-top: 5px;
   color: #ed2f83;
+  text-decoration: none;
+
+  &:hover {
+    color: black;
+  }
 }
-  &__img2 {
-    float: left;
-    width: 16px;
-    height: 16px;
-    padding-right: 16px;
-
-  }
-
-  .icon-star {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    font-weight: bold;
-  }
-
-  &__img3 {
-    float: left;
-    width: 16px;
-    height: 16px;
-    padding-right: 16px;
-  }
-
-  .icon-wallet {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    font-weight: bold;
-  }
-  .icon-walletwallet {
-    width: 1.1875em;
-  }
-
-  &__anchor {
-    margin-left: 10px;
-
-    //bottom: 5px;
-    text-transform: uppercase;
-    color: $color-pink;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-    transition: color 2s ease;
-
-    &:hover {
-      color: black;
-    }
-  }
 
 .visit:visited {
-  color: black;
+  background: black;
 }
 
-svg:hover {
- color: #000;
+.aside__icon-triangle {
+  background: url(../img/triangle_pink.png) no-repeat;
+  width: 23px;
+  height: 22px;
+  display: inline-block;
+  
 }
 
-.aside__list:hover {
-  color: #000;
+.aside__icon-triangle:hover {
+  background: url(../img/triangle_black.png) no-repeat;
 }
+
+.aside__icon-star-empty {
+  background: url(../img/star_pink.png) no-repeat;
+ padding: 3px;
+  width: 23px;
+  height: 22px;
+  display: inline-block;
+}
+
+.aside__icon-star-empty:hover {
+  background: url(../img/star_black.png) no-repeat;
+}
+
+.aside__icon-wallet {
+  background: url(../img/wallet_pink.png) no-repeat;
+ padding: 3px;
+  width: 23px;
+  height: 22px;
+  display: inline-block;
+}
+
+.aside__icon-wallet:hover {
+  background: url(../img/wallet_black.png) no-repeat;
 }

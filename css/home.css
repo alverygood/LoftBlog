@@ -23,19 +23,10 @@ a {
 .clearfix {
   clear: both; }
 
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both; }
-
 h1 {
   font-family: "Montserrat", sans-serif;
   margin-top: 41px;
   font-weight: bold; }
-
-.wrapper {
-  min-width: 1140px;
-  height: 100%; }
 
 .container {
   width: 1100px;
@@ -54,16 +45,9 @@ h1 {
   width: 700px; }
 
 .wrapper {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
-
-.container {
-  flex: 1 0 auto; }
+  min-width: 1100px;
+  min-height: 100%;
+  overflow: hidden; }
 
 .foot {
   flex: 0 0 auto; }
@@ -240,74 +224,52 @@ a {
 .aside {
   font-family: "Montserrat", sans-serif;
   width: 160px;
-  margin-bottom: 86px; }
-  .aside__list {
-    position: relative;
-    margin: 27px;
-    width: 160px; }
-  .aside__ul_list {
-    padding-top: 13px;
-    width: 160px; }
-  .aside__img1 {
-    float: left;
-    width: 16px;
-    height: 16px;
-    padding-right: 16px; }
-  .aside .icon-triangle {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    font-weight: bold; }
-  .aside svg {
-    color: #ed2f83; }
-  .aside__img2 {
-    float: left;
-    width: 16px;
-    height: 16px;
-    padding-right: 16px; }
-  .aside .icon-star {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    font-weight: bold; }
-  .aside__img3 {
-    float: left;
-    width: 16px;
-    height: 16px;
-    padding-right: 16px; }
-  .aside .icon-wallet {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    font-weight: bold; }
-  .aside .icon-walletwallet {
-    width: 1.1875em; }
-  .aside__anchor {
-    margin-left: 10px;
-    text-transform: uppercase;
-    color: #ed2f83;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-    transition: color 2s ease; }
-    .aside__anchor:hover {
-      color: black; }
-  .aside .visit:visited {
+  margin-bottom: 162px; }
+
+.aside__list {
+  list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px; }
+
+.aside__url {
+  margin-top: 5px;
+  color: #ed2f83;
+  text-decoration: none; }
+  .aside__url:hover {
     color: black; }
-  .aside svg:hover {
-    color: #000; }
-  .aside .aside__list:hover {
-    color: #000; }
+
+.visit:visited {
+  background: black; }
+
+.aside__icon-triangle {
+  background: url(../img/triangle_pink.png) no-repeat;
+  width: 23px;
+  height: 22px;
+  display: inline-block; }
+
+.aside__icon-triangle:hover {
+  background: url(../img/triangle_black.png) no-repeat; }
+
+.aside__icon-star-empty {
+  background: url(../img/star_pink.png) no-repeat;
+  padding: 3px;
+  width: 23px;
+  height: 22px;
+  display: inline-block; }
+
+.aside__icon-star-empty:hover {
+  background: url(../img/star_black.png) no-repeat; }
+
+.aside__icon-wallet {
+  background: url(../img/wallet_pink.png) no-repeat;
+  padding: 3px;
+  width: 23px;
+  height: 22px;
+  display: inline-block; }
+
+.aside__icon-wallet:hover {
+  background: url(../img/wallet_black.png) no-repeat; }
 
 .features {
   font-family: "Montserrat", sans-serif;
@@ -502,7 +464,7 @@ a {
   font-family: "Montserrat", sans-serif;
   position: relative;
   display: inline-block;
-  top: -200px;
+  top: -260px;
   left: 200px;
   width: 70px;
   float: left;
@@ -520,7 +482,7 @@ a {
   font-family: "Montserrat", sans-serif;
   position: relative;
   display: inline-block;
-  top: -200px;
+  top: -260px;
   left: 200px;
   width: 70px;
   float: left;
@@ -638,6 +600,7 @@ span a {
     font-weight: bold;
     margin-bottom: 30px; }
   .form__name {
+    width: 250px;
     float: left;
     padding-bottom: 10px; }
   .form__input {
@@ -650,6 +613,7 @@ span a {
   .form__input:focus {
     border: 1px solid #ed2f83; }
   .form__profile-vk {
+    width: 250px;
     float: right;
     padding-bottom: 10px; }
   .form__textarea {
