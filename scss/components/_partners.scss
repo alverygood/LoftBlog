@@ -2,6 +2,7 @@
   font-family: "Montserrat", sans-serif;
   float: right;
     width: calc(1100px - 172px);
+    margin-bottom: 50px;
 
   &__head {
     font-size: 49px;
@@ -22,7 +23,7 @@
     filter: alpha(opacity=50);
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    
+    transition: opacity 2s ease;
     &:hover {
         opacity: 1;
         filter: grayscale(0);

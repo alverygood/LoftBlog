@@ -516,7 +516,8 @@ a {
 .partners {
   font-family: "Montserrat", sans-serif;
   float: right;
-  width: calc(1100px - 172px); }
+  width: calc(1100px - 172px);
+  margin-bottom: 50px; }
   .partners__head {
     font-size: 49px;
     font-weight: bold;
@@ -533,7 +534,8 @@ a {
     opacity: 0.4;
     filter: alpha(opacity=50);
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
+    filter: grayscale(100%);
+    transition: opacity 2s ease; }
     .partners__item:hover {
       opacity: 1;
       filter: grayscale(0); }
