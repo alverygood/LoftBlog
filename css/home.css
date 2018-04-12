@@ -311,7 +311,7 @@ a {
     cursor: pointer;
     text-align: center;
     font-weight: normal;
-    padding: 7px;
+    padding: 30px;
     transition: box-shadow 2s ease-in-out; }
     .features__item:hover {
       box-shadow: 1px 10px 40px 0px #b3adb3; }
