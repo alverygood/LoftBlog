@@ -239,8 +239,9 @@ a {
   margin-right: 10px; }
 
 .aside__name {
-  margin-left: 12px;
-  margin-top: -20px; }
+  float: left;
+  margin-left: 32px;
+  margin-top: -18px; }
 
 .aside__icon-triangle {
   background: url(../img/triangle__pink.png) no-repeat;
